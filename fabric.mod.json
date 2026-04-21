@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "hatmod",
+  "version": "1.0.0",
+  "name": "Hat Mod",
+  "description": "Adds /hat command",
+  "authors": ["chatgpt"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.hatmod.HatMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric": "*"
+  }
+}
